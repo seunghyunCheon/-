@@ -10,4 +10,11 @@ public class Money {
     public static Money wons(BigDecimal amount) {
         return new Money(BigDecimal.valueOf(amount));
     }
+
+    public Money times(double discountPercent) {
+        
+    }
+
+    public Money minus(Money discountAmount) {
+    }
 }
